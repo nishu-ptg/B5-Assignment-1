@@ -132,4 +132,31 @@
 
   console.log(getMostExpensiveProduct(products));
   // Output: { name: "Bag", price: 50 }
+
+  enum Day {
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday,
+  }
+
+  function getDayType(day: Day): string {
+    const weekends: Day[] = [Day.Saturday, Day.Sunday];
+    let dayType: string;
+
+    if (weekends.includes(day)) {
+      dayType = "Weekend";
+    } else {
+      dayType = "Weekday";
+    }
+
+    return dayType;
+  }
+
+  // test getDayType()
+  console.log(getDayType(Day.Monday)); // Output: "Weekday"
+  console.log(getDayType(Day.Sunday)); // Output: "Weekend"
 }
