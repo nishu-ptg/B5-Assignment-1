@@ -1,0 +1,15 @@
+{
+  "name": "apollo-level2-web-dev_b5-assignment-1",
+  "version": "1.0.0",
+  "description": "Assignment for Programming Hero Level 2: (https://github.com/Apollo-Level2-Web-Dev/B5-Assignment-1)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "author": "Ali Nishu",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  }
+}
