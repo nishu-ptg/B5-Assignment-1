@@ -14,7 +14,7 @@
 <p>
 	Both `interface` and `type` in TypeScript let us write and define the shape of an object, which is a great feature that vanilla JS doesn't have. But since both are similar, they seem to be doing the same thing when we learn to know about them, and that's why it might be quite confusing for beginners, so I think it is a great first topic for a discussion and a blog post! So here I will try my best to explore and understand the differences:
     <ol>
-        <li>Both can be used for objects, but the similarities probably end there: while interface can only be used for objects, type can be used for other data types also - primitive and other special types. SO in that regard, types are more useful. </li>
+        <li>Both can be used for objects, but the similarities probably end there: while interface can only be used for objects, type can be used for other data types also - primitive and other special types. So in that regard, types are more useful. </li>
         <li>Interface is more powerful than type in one area: declaration merging. Interfaces are called 'extensible', meaning we can declare the same interface multiple times, and merge them! Great choice for API then no doubt!</li>
         <li>Interfaces can only be extended using the `extends` keyword; on the other hand, types use unions and intersections.</li>
     </ol>
